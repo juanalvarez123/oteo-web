@@ -1,0 +1,1 @@
+var oteoWebApp = angular.module('oteoWebApp', []);
