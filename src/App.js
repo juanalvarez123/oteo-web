@@ -10,7 +10,7 @@ class App extends Component {
     }
 
 	componentDidMount() {
-      fetch(process.env.REACT_APP_URL_OTEO_REST_API)
+      fetch(process.env.REACT_APP_URL_OTEO_REST_API + '/healthcheck')
       .then((response) => {
         return response.json()
       })
