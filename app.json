@@ -1,0 +1,20 @@
+{
+  "name": "oteo-web",
+  "scripts": {
+  },
+  "env": {
+    "URL_OTEO_REST_API": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
