@@ -1,0 +1,1 @@
+REACT_APP_URL_OTEO_REST_API=http://localhost:18080/oteo-rest-api npm start

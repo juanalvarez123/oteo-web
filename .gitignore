@@ -2,3 +2,4 @@ node_modules/*
 .classpath
 .project
 *.log
+.settings/*
